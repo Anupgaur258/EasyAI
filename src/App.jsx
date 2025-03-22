@@ -5,6 +5,7 @@ import TrustSection from './components/TrustSection';
 import WorkflowSection from './components/WorkflowSection';
 import Meeting from './pages/Meeting';
 import CollaborativeTool from './pages/CollaborativeTool';
+import CollaborativeBoard from './pages/CollaborativeBoard';
 import AICodeReviewer from './pages/AICodeReviewer';
 import AIShortVideoGenerator from './pages/AIShortVideoGenerator';
 import LearnEnglish from './pages/LearnEnglish';
@@ -28,6 +29,7 @@ function App() {
         />
         <Route path="/meeting" element={<Meeting />} />
         <Route path="/collaborative-tool" element={<CollaborativeTool />} />
+        <Route path="/collaborative-tool/board" element={<CollaborativeBoard />} />
         <Route path="/ai-code-reviewer" element={<AICodeReviewer />} />
         <Route path="/ai-short-video-generator" element={<AIShortVideoGenerator />} />
         <Route path="/learn-english" element={<LearnEnglish />} />
